@@ -29,6 +29,8 @@
         return;
     }
     self.layer.cornerRadius = cornerRadius;
+    // 会引起离屏渲染
+    self.layer.masksToBounds = YES;
 }
 
 @end

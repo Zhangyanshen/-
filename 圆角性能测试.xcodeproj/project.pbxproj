@@ -13,7 +13,6 @@
 		2353AACE1DB61CAC002C543F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2353AACC1DB61CAC002C543F /* Main.storyboard */; };
 		2353AAD01DB61CAC002C543F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2353AACF1DB61CAC002C543F /* Assets.xcassets */; };
 		2353AAD31DB61CAC002C543F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2353AAD11DB61CAC002C543F /* LaunchScreen.storyboard */; };
-		2353AADB1DB61E25002C543F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2353AADA1DB61E25002C543F /* 1.jpg */; };
 		2353AADE1DB61E58002C543F /* YSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2353AADD1DB61E58002C543F /* YSImageView.m */; };
 		2353AAE11DB61FF0002C543F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2353AAE01DB61FF0002C543F /* SecondViewController.m */; };
 		2353AAE71DB6233E002C543F /* YSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2353AAE61DB6233E002C543F /* YSView.m */; };
@@ -31,7 +30,6 @@
 		2353AACF1DB61CAC002C543F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2353AAD21DB61CAC002C543F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2353AAD41DB61CAC002C543F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2353AADA1DB61E25002C543F /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../1.jpg; sourceTree = "<group>"; };
 		2353AADC1DB61E58002C543F /* YSImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSImageView.h; sourceTree = "<group>"; };
 		2353AADD1DB61E58002C543F /* YSImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSImageView.m; sourceTree = "<group>"; };
 		2353AADF1DB61FF0002C543F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				2353AACC1DB61CAC002C543F /* Main.storyboard */,
 				2353AACF1DB61CAC002C543F /* Assets.xcassets */,
 				2353AAD11DB61CAC002C543F /* LaunchScreen.storyboard */,
-				2353AADA1DB61E25002C543F /* 1.jpg */,
 				2353AAD41DB61CAC002C543F /* Info.plist */,
 				2353AAC31DB61CAC002C543F /* Supporting Files */,
 			);
@@ -163,7 +160,6 @@
 			files = (
 				2353AAD31DB61CAC002C543F /* LaunchScreen.storyboard in Resources */,
 				2353AAD01DB61CAC002C543F /* Assets.xcassets in Resources */,
-				2353AADB1DB61E25002C543F /* 1.jpg in Resources */,
 				2353AACE1DB61CAC002C543F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +334,7 @@
 				2353AAD91DB61CAC002C543F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

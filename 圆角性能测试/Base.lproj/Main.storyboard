@@ -59,7 +59,7 @@
                                             <frame key="frameInset" width="375" height="87"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EG9-eT-eDI" customClass="YSImageView">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="EG9-eT-eDI" customClass="YSImageView">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="KtW-I8-1qs"/>
                                                         <constraint firstAttribute="height" constant="50" id="q8G-vu-coD"/>
@@ -76,7 +76,7 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="19q-la-vIy" customClass="YSImageView">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="19q-la-vIy" customClass="YSImageView">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="1KS-qd-hAp"/>
                                                         <constraint firstAttribute="height" constant="50" id="aLF-nn-lOG"/>
@@ -172,6 +172,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1.jpg" width="2000" height="1480"/>
+        <image name="2" width="570" height="524"/>
+        <image name="5" width="1280" height="800"/>
     </resources>
 </document>
