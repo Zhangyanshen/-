@@ -12,6 +12,8 @@ IB_DESIGNABLE
 
 @interface YSLabel : UILabel
 
+@property (nonatomic, strong) IBInspectable UIColor *borderColor;
+@property (nonatomic, assign) IBInspectable CGFloat borderWidth;
 @property (nonatomic, assign) IBInspectable CGFloat cornerRadius;
 
 @end

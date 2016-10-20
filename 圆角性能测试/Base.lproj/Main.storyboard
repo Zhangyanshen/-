@@ -69,10 +69,10 @@
                                                             <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                            <real key="value" value="1"/>
+                                                            <real key="value" value="0.0"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <real key="value" value="25"/>
+                                                            <real key="value" value="10"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
@@ -86,51 +86,84 @@
                                                             <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                            <real key="value" value="1"/>
+                                                            <real key="value" value="0.0"/>
                                                         </userDefinedRuntimeAttribute>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <real key="value" value="25"/>
+                                                            <real key="value" value="10"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0M1-NP-esQ" customClass="YSLabel">
-                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="U7c-df-KtK" customClass="YSImageView">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="7Pd-g2-qTn"/>
+                                                        <constraint firstAttribute="height" constant="50" id="kYd-mC-Dbb"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="0.0"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpn-DD-BUQ" customClass="YSLabel">
+                                                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <real key="value" value="5"/>
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="0.0"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </label>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aKl-ql-9NY" customClass="YSView">
-                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="50" id="NwH-pE-Ref"/>
-                                                        <constraint firstAttribute="width" constant="50" id="xHH-Kk-879"/>
-                                                    </constraints>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emu-5v-QvN" customClass="YSLabel">
+                                                    <color key="backgroundColor" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                            <real key="value" value="25"/>
+                                                            <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="0.0"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
-                                                </view>
+                                                </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="emu-5v-QvN" firstAttribute="centerY" secondItem="odJ-hj-fBr" secondAttribute="centerY" id="1p0-no-6ka"/>
                                                 <constraint firstItem="EG9-eT-eDI" firstAttribute="centerY" secondItem="odJ-hj-fBr" secondAttribute="centerY" id="27O-lA-ZYm"/>
                                                 <constraint firstItem="19q-la-vIy" firstAttribute="leading" secondItem="EG9-eT-eDI" secondAttribute="trailing" constant="25" id="4gd-Gb-SJ0"/>
+                                                <constraint firstItem="U7c-df-KtK" firstAttribute="centerY" secondItem="odJ-hj-fBr" secondAttribute="centerY" id="4zL-rJ-lzC"/>
+                                                <constraint firstItem="U7c-df-KtK" firstAttribute="leading" secondItem="19q-la-vIy" secondAttribute="trailing" constant="25" id="5cK-zT-QVA"/>
                                                 <constraint firstItem="19q-la-vIy" firstAttribute="centerY" secondItem="EG9-eT-eDI" secondAttribute="centerY" id="PYK-tu-u8D"/>
-                                                <constraint firstItem="aKl-ql-9NY" firstAttribute="centerY" secondItem="odJ-hj-fBr" secondAttribute="centerY" id="W5Y-hF-fDH"/>
+                                                <constraint firstItem="tpn-DD-BUQ" firstAttribute="leading" secondItem="emu-5v-QvN" secondAttribute="trailing" constant="22" id="a6J-7Y-kAv"/>
                                                 <constraint firstItem="EG9-eT-eDI" firstAttribute="leading" secondItem="odJ-hj-fBr" secondAttribute="leading" constant="16" id="aPe-0J-MEE"/>
-                                                <constraint firstItem="aKl-ql-9NY" firstAttribute="leading" secondItem="19q-la-vIy" secondAttribute="trailing" constant="31" id="aw6-Jo-jVh"/>
-                                                <constraint firstAttribute="trailing" secondItem="0M1-NP-esQ" secondAttribute="trailing" constant="16" id="be3-gn-PfC"/>
-                                                <constraint firstItem="0M1-NP-esQ" firstAttribute="centerY" secondItem="odJ-hj-fBr" secondAttribute="centerY" id="jOk-pg-1af"/>
+                                                <constraint firstAttribute="trailing" secondItem="tpn-DD-BUQ" secondAttribute="trailing" constant="8" id="iOn-1J-KoA"/>
+                                                <constraint firstItem="tpn-DD-BUQ" firstAttribute="centerY" secondItem="odJ-hj-fBr" secondAttribute="centerY" id="sr1-ay-QDr"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="firstImageView" destination="EG9-eT-eDI" id="hvr-8k-zBG"/>
+                                            <outlet property="label1" destination="emu-5v-QvN" id="Pd8-cH-6zy"/>
+                                            <outlet property="label2" destination="tpn-DD-BUQ" id="eny-GD-Dvj"/>
                                             <outlet property="secondImageView" destination="19q-la-vIy" id="4H7-qR-dm3"/>
+                                            <outlet property="thirdImageView" destination="U7c-df-KtK" id="JE1-Ic-iK3"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -139,30 +172,53 @@
                                     <outlet property="delegate" destination="HRc-7f-0AY" id="w15-1t-zWm"/>
                                 </connections>
                             </tableView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GiH-6c-XNj">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Hfa-9A-wDF"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem style="plain" id="JPk-XI-zgq">
+                                        <switch key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="Su5-m9-IO0">
+                                            <rect key="frame" x="16" y="7" width="51" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <connections>
+                                                <action selector="showRoundCorner:" destination="HRc-7f-0AY" eventType="valueChanged" id="IYO-f5-4Hf"/>
+                                            </connections>
+                                        </switch>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Cer-2R-ztR"/>
+                                    <barButtonItem style="plain" id="hJ4-Lz-fxk">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="iYA-YP-hzE">
+                                            <rect key="frame" x="196" y="7" width="163" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="不显示边框"/>
+                                                <segment title="显示边框"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="showBorder:" destination="HRc-7f-0AY" eventType="valueChanged" id="3df-eJ-omt"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="cak-0X-nKR" firstAttribute="leading" secondItem="LzK-Di-gTG" secondAttribute="leading" id="2et-ju-xf1"/>
-                            <constraint firstItem="iXK-Yq-eFg" firstAttribute="top" secondItem="cak-0X-nKR" secondAttribute="bottom" id="5cG-SN-Fz8"/>
                             <constraint firstAttribute="trailing" secondItem="cak-0X-nKR" secondAttribute="trailing" id="CXy-wI-M7H"/>
+                            <constraint firstAttribute="trailing" secondItem="GiH-6c-XNj" secondAttribute="trailing" id="Cs3-e3-oej"/>
                             <constraint firstItem="cak-0X-nKR" firstAttribute="top" secondItem="LzK-Di-gTG" secondAttribute="top" id="U5Q-Gf-YhC"/>
+                            <constraint firstItem="iXK-Yq-eFg" firstAttribute="top" secondItem="GiH-6c-XNj" secondAttribute="bottom" id="Z8N-Gx-VfS"/>
+                            <constraint firstItem="GiH-6c-XNj" firstAttribute="top" secondItem="cak-0X-nKR" secondAttribute="bottom" id="lDA-IJ-rfS"/>
+                            <constraint firstItem="GiH-6c-XNj" firstAttribute="leading" secondItem="LzK-Di-gTG" secondAttribute="leading" id="oUR-5d-qDx"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="8OX-aK-foG">
-                        <barButtonItem key="rightBarButtonItem" id="eVd-gW-vEo">
-                            <switch key="customView" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="tXE-Kc-VaE">
-                                <rect key="frame" x="310" y="6" width="51" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="showRoundCorner:" destination="HRc-7f-0AY" eventType="valueChanged" id="SdB-Qw-74r"/>
-                                </connections>
-                            </switch>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationItem key="navigationItem" id="8OX-aK-foG"/>
                     <connections>
-                        <outlet property="roundCornerSwitch" destination="tXE-Kc-VaE" id="Y6m-Oa-KTt"/>
+                        <outlet property="borderSegmentedControl" destination="iYA-YP-hzE" id="Xw0-EY-DJk"/>
+                        <outlet property="roundCornerSwitch" destination="Su5-m9-IO0" id="paG-8h-CAy"/>
                         <outlet property="tableView" destination="cak-0X-nKR" id="PBw-Iw-kRo"/>
                     </connections>
                 </viewController>
@@ -191,6 +247,7 @@
     </scenes>
     <resources>
         <image name="2" width="570" height="524"/>
+        <image name="3" width="615" height="738"/>
         <image name="5" width="1280" height="800"/>
     </resources>
 </document>

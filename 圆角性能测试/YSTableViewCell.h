@@ -10,6 +10,7 @@
 
 @interface YSTableViewCell : UITableViewCell
 
-@property (nonatomic, assign) BOOL showRoundCorner;
+@property (nonatomic, assign) BOOL showRoundCorner; // 是否显示圆角
+@property (nonatomic, assign) BOOL showBorder; // 是否显示边框
 
 @end

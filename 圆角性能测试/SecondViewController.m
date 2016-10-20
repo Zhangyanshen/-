@@ -13,6 +13,7 @@
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UISwitch *roundCornerSwitch;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *borderSegmentedControl;
 
 @end
 
@@ -32,6 +33,7 @@
     static NSString *cellID = @"cell";
     YSTableViewCell *cell = (YSTableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
     cell.showRoundCorner = self.roundCornerSwitch.on;
+    cell.showBorder = self.borderSegmentedControl.selectedSegmentIndex;
     return cell;
 }
 
@@ -41,7 +43,13 @@
     return 88;
 }
 
+#pragma mark - Event response
+
 - (IBAction)showRoundCorner:(UISwitch *)sender {
+    [self.tableView reloadData];
+}
+
+- (IBAction)showBorder:(UISegmentedControl *)sender {
     [self.tableView reloadData];
 }
 
