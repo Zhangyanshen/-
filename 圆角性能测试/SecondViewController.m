@@ -7,10 +7,12 @@
 //
 
 #import "SecondViewController.h"
+#import "YSTableViewCell.h"
 
 @interface SecondViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UISwitch *roundCornerSwitch;
 
 @end
 
@@ -28,7 +30,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellID = @"cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
+    YSTableViewCell *cell = (YSTableViewCell *)[tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
+    cell.showRoundCorner = self.roundCornerSwitch.on;
     return cell;
 }
 
@@ -36,6 +39,10 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 88;
+}
+
+- (IBAction)showRoundCorner:(UISwitch *)sender {
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -17,6 +17,7 @@
 		2353AAE11DB61FF0002C543F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2353AAE01DB61FF0002C543F /* SecondViewController.m */; };
 		2353AAE71DB6233E002C543F /* YSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2353AAE61DB6233E002C543F /* YSView.m */; };
 		2353AAEA1DB623C3002C543F /* YSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2353AAE91DB623C3002C543F /* YSLabel.m */; };
+		23B01D6A1DB89B5A00979479 /* YSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B01D691DB89B5A00979479 /* YSTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		2353AAE61DB6233E002C543F /* YSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSView.m; sourceTree = "<group>"; };
 		2353AAE81DB623C3002C543F /* YSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLabel.h; sourceTree = "<group>"; };
 		2353AAE91DB623C3002C543F /* YSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLabel.m; sourceTree = "<group>"; };
+		23B01D681DB89B5A00979479 /* YSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSTableViewCell.h; sourceTree = "<group>"; };
+		23B01D691DB89B5A00979479 /* YSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				2353AACA1DB61CAC002C543F /* ViewController.m */,
 				2353AADF1DB61FF0002C543F /* SecondViewController.h */,
 				2353AAE01DB61FF0002C543F /* SecondViewController.m */,
+				23B01D681DB89B5A00979479 /* YSTableViewCell.h */,
+				23B01D691DB89B5A00979479 /* YSTableViewCell.m */,
 				2353AADC1DB61E58002C543F /* YSImageView.h */,
 				2353AADD1DB61E58002C543F /* YSImageView.m */,
 				2353AAE51DB6233E002C543F /* YSView.h */,
@@ -174,6 +179,7 @@
 				2353AAEA1DB623C3002C543F /* YSLabel.m in Sources */,
 				2353AAE11DB61FF0002C543F /* SecondViewController.m in Sources */,
 				2353AAE71DB6233E002C543F /* YSView.m in Sources */,
+				23B01D6A1DB89B5A00979479 /* YSTableViewCell.m in Sources */,
 				2353AACB1DB61CAC002C543F /* ViewController.m in Sources */,
 				2353AAC81DB61CAC002C543F /* AppDelegate.m in Sources */,
 				2353AADE1DB61E58002C543F /* YSImageView.m in Sources */,
