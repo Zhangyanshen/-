@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2353AAC01DB61CAC002C543F /* 圆角性能测试.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "圆角性能测试.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2353AAC01DB61CAC002C543F /* AAA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2353AAC41DB61CAC002C543F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2353AAC61DB61CAC002C543F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2353AAC71DB61CAC002C543F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		2353AAC11DB61CAC002C543F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2353AAC01DB61CAC002C543F /* 圆角性能测试.app */,
+				2353AAC01DB61CAC002C543F /* AAA.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2353AABF1DB61CAC002C543F /* 圆角性能测试 */ = {
+		2353AABF1DB61CAC002C543F /* AAA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2353AAD71DB61CAC002C543F /* Build configuration list for PBXNativeTarget "圆角性能测试" */;
+			buildConfigurationList = 2353AAD71DB61CAC002C543F /* Build configuration list for PBXNativeTarget "AAA" */;
 			buildPhases = (
 				2353AABC1DB61CAC002C543F /* Sources */,
 				2353AABD1DB61CAC002C543F /* Frameworks */,
@@ -119,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = "圆角性能测试";
+			name = AAA;
 			productName = "圆角性能测试";
-			productReference = 2353AAC01DB61CAC002C543F /* 圆角性能测试.app */;
+			productReference = 2353AAC01DB61CAC002C543F /* AAA.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +135,7 @@
 				TargetAttributes = {
 					2353AABF1DB61CAC002C543F = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = N5WRHCE748;
+						DevelopmentTeam = J46HYNA3T9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -153,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2353AABF1DB61CAC002C543F /* 圆角性能测试 */,
+				2353AABF1DB61CAC002C543F /* AAA */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N5WRHCE748;
+				DEVELOPMENT_TEAM = J46HYNA3T9;
 				INFOPLIST_FILE = "圆角性能测试/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yixin.------";
@@ -313,7 +313,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N5WRHCE748;
+				DEVELOPMENT_TEAM = J46HYNA3T9;
 				INFOPLIST_FILE = "圆角性能测试/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yixin.------";
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2353AAD71DB61CAC002C543F /* Build configuration list for PBXNativeTarget "圆角性能测试" */ = {
+		2353AAD71DB61CAC002C543F /* Build configuration list for PBXNativeTarget "AAA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2353AAD81DB61CAC002C543F /* Debug */,
